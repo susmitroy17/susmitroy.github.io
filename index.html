@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susmit Roy</title>
+    <meta name="description"
+        content="Portfolio of Susmit Roy — Application Support Engineer specializing in scalable infrastructure, ITSM processes, and full-stack development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ═══════════════ NAVIGATION ═══════════════ -->
+    <nav id="main-nav" class="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">SUSMIT ROY</a>
+            <ul class="nav__links">
+                <li><a href="#home" class="nav__link active">HOME</a></li>
+                <li><a href="#experience" class="nav__link">EXPERIENCE</a></li>
+                <li><a href="#skills" class="nav__link">SKILLS</a></li>
+                <li><a href="#about" class="nav__link">ABOUT</a></li>
+            </ul>
+            <a href="#contact" class="btn btn--primary nav__cta">CONTACT ME</a>
+            <button class="nav__hamburger" id="nav-hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-menu__links">
+            <li><a href="#home" class="mobile-menu__link">HOME</a></li>
+            <li><a href="#experience" class="mobile-menu__link">EXPERIENCE</a></li>
+            <li><a href="#skills" class="mobile-menu__link">SKILLS</a></li>
+            <li><a href="#about" class="mobile-menu__link">ABOUT</a></li>
+            <li><a href="#contact" class="btn btn--primary">CONTACT ME</a></li>
+        </ul>
+    </div>
+
+    <!-- ═══════════════ HERO SECTION ═══════════════ -->
+    <section id="home" class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <span class="hero__title-line" data-animate="slide-up">Architecting</span>
+                    <span class="hero__title-line hero__title-line--accent" data-animate="slide-up"
+                        data-delay="1">Scalable</span>
+                    <span class="hero__title-line" data-animate="slide-up" data-delay="2">Infrastructure.</span>
+                </h1>
+                <p class="hero__subtitle" data-animate="fade-in" data-delay="3">
+                    Building Resilient Infrastructure, Automating Workflows &<br>
+                    Engineering AI-Powered Solutions.
+                </p>
+                <div class="hero__stats" data-animate="fade-in" data-delay="4">
+                    <div class="hero__stat">
+                        <span class="hero__stat-value">99<span class="hero__stat-percent">%</span></span>
+                        <span class="hero__stat-label">SLA ADHERENCE</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-value">35<span class="hero__stat-percent">%</span></span>
+                        <span class="hero__stat-label">FASTER RESOLUTION</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__portrait" data-animate="fade-in" data-delay="2">
+                <div class="hero__portrait-frame">
+                    <img src="assets/images/portrait.jpg" alt="Susmit Roy - Portrait" class="hero__portrait-img">
+                    <div class="hero__portrait-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ EXPERIENCE SECTION ═══════════════ -->
+    <section id="experience" class="experience">
+        <div class="experience__container">
+            <div class="experience__header">
+                <span class="section-tag">PROFESSIONAL ODYSSEY</span>
+                <h2 class="experience__heading">
+                    Driving impact<br>
+                    through technical<br>
+                    rigor.
+                </h2>
+            </div>
+            <div class="experience__timeline">
+                <div class="timeline__line"></div>
+
+                <!-- Experience Item 1 -->
+                <div class="timeline__item" data-animate="slide-left">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__meta">
+                        <span class="timeline__tag">DEC 2023 — JAN 2026</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Bassetti ITES Pvt. Ltd.</h3>
+                        <p class="timeline__role">Associate Engineer – Technical Support</p>
+                        <p class="timeline__location">Kolkata, India</p>
+                        <div class="timeline__domain">
+                            <span class="timeline__domain-tag">Global Enterprise Infrastructure Support</span>
+                            <span class="timeline__domain-tag">APAC</span>
+                            <span class="timeline__domain-tag">EMEA</span>
+                            <span class="timeline__domain-tag">AMER</span>
+                        </div>
+                        <ul class="timeline__list">
+                            <li>Owned 24x7 incident management across 200+ monthly tickets, sustaining 98% SLA adherence
+                                with zero-breach service continuity across three global regions.</li>
+                            <li>Built a centralized Knowledge Base for recurring network failure patterns — cut MTTR by
+                                15% and authored audit-ready runbooks aligned with ITIL best practices.</li>
+                            <li>Led escalation handling and change management coordination with engineering teams for
+                                complex OS and infrastructure-level disruptions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline__item" data-animate="slide-left">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__meta">
+                        <span class="timeline__tag">AUG 2022 — AUG 2023</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Asset Online Private Limited</h3>
+                        <p class="timeline__role">IT Associate</p>
+                        <p class="timeline__location">Hyderabad, India</p>
+                        <div class="timeline__domain">
+                            <span class="timeline__domain-tag">Internal IT Operations</span>
+                            <span class="timeline__domain-tag">System Administration</span>
+                            <span class="timeline__domain-tag">Stakeholder Support</span>
+                        </div>
+                        <ul class="timeline__list">
+                            <li>Reduced critical system downtime by 20% through targeted configuration changes,
+                                connectivity audits, and proactive network monitoring.</li>
+                            <li>Managed end-to-end hardware/software provisioning, OS configuration, VPN, Active
+                                Directory, and tier-1 support workflow redesign.</li>
+                            <li>Awarded Certificate of Recommendation from DGM, BEL Hyderabad for exemplary stakeholder
+                                communication and resolution quality.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ PROJECTS / DIGITAL CRAFTSMANSHIP ═══════════════ -->
+    <section id="projects" class="projects">
+        <div class="projects__container">
+            <div class="projects__header">
+                <h2 class="projects__heading">
+                    Digital<br>Craftsmanship
+                </h2>
+                <p class="projects__subtext">A few selected projects that showcase my passion for infrastructure and
+                    development.</p>
+            </div>
+            <div class="projects__grid">
+                <div class="project-card project-card--wide" data-animate="scale-in">
+                    <div class="project-card__image">
+                        <img src="assets/images/project-photographer.png"
+                            alt="Photographer Portfolio & Proofing Portal">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Photographer Portfolio & Proofing Portal</h3>
+                    </div>
+                </div>
+                <div class="project-card project-card--wide" data-animate="scale-in">
+                    <div class="project-card__image">
+                        <img src="assets/images/project-itsm.png" alt="ITM Incident Travel Analysis Dashboard">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">ITM Incident Travel Analysis Dashboard</h3>
+                    </div>
+                </div>
+                <div class="project-card project-card--wide" data-animate="scale-in">
+                    <div class="project-card__image">
+                        <img src="assets/images/project-health.png" alt="Infra Health Monitor">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Infra Health Monitor</h3>
+                        <p class="project-card__desc">Application support tool for real-time server monitoring, incident
+                            tracking and automated alerting with custom alert thresholds.</p>
+                    </div>
+                </div>
+                <div class="project-card project-card--wide" data-animate="scale-in">
+                    <div class="project-card__image">
+                        <img src="assets/images/project-directory.png" alt="Photographer Directory & Booking">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Photographer Directory & Booking</h3>
+                        <p class="project-card__desc">A comprehensive directory to find, compare, and book professional
+                            photographers through modern and elegant UI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ SKILLS SECTION ═══════════════ -->
+    <section id="skills" class="skills">
+        <div class="skills__container">
+            <span class="section-tag section-tag--center">DRIVE BEHIND EXCELLENCE</span>
+
+            <div class="skills__grid">
+                <div class="skill-card" data-animate="fade-up">
+                    <h3 class="skill-card__title">ITSM & Process</h3>
+                    <ul class="skill-card__list">
+                        <li>ITIL v4 Framework</li>
+                        <li>ServiceNow</li>
+                        <li>BMC Remedy</li>
+                        <li>JIRA / Confluence</li>
+                        <li>SLA Management</li>
+                        <li>Root Cause Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-animate="fade-up">
+                    <h3 class="skill-card__title">Systems & Infra</h3>
+                    <ul class="skill-card__list">
+                        <li>Windows Server</li>
+                        <li>Active Directory</li>
+                        <li>VMware / Hyper-V</li>
+                        <li>DNS / DHCP</li>
+                        <li>Load Balancers</li>
+                        <li>IIS / Apache</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-animate="fade-up">
+                    <h3 class="skill-card__title">Cloud & Automation</h3>
+                    <ul class="skill-card__list">
+                        <li>AWS (EC2, S3, RDS)</li>
+                        <li>Azure Fundamentals</li>
+                        <li>Docker Basics</li>
+                        <li>PowerShell</li>
+                        <li>Bash Scripting</li>
+                        <li>CI/CD Pipelines</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-animate="fade-up">
+                    <h3 class="skill-card__title">Databases & Scripting</h3>
+                    <ul class="skill-card__list">
+                        <li>MySQL / MSSQL</li>
+                        <li>MongoDB</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ EDUCATION & CERTIFICATIONS ═══════════════ -->
+    <section id="about" class="education">
+        <div class="education__container">
+            <div class="education__info">
+                <h2 class="education__degree">B.Tech Electronics & Communication</h2>
+                <p class="education__school">Graduated in the above field from Engineering college.</p>
+            </div>
+            <div class="education__certs">
+                <div class="cert-badge" data-animate="pop-in">
+                    <span class="cert-badge__name">ITIL</span>
+                </div>
+                <div class="cert-badge" data-animate="pop-in">
+                    <span class="cert-badge__name">AZ-800</span>
+                </div>
+                <div class="cert-badge" data-animate="pop-in">
+                    <span class="cert-badge__name">Python</span>
+                </div>
+                <div class="cert-badge" data-animate="pop-in">
+                    <span class="cert-badge__name">Cisco</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ CTA SECTION ═══════════════ -->
+    <section id="contact" class="cta">
+        <div class="cta__container">
+            <h2 class="cta__heading">
+                Ready to build<br>
+                <strong>bulletproof</strong><br>
+                infrastructure?
+            </h2>
+            <div class="cta__buttons">
+                <a href="mailto:susmit99roy@gmail.com" class="btn btn--primary btn--lg">LET'S DISCUSS</a>
+                <a href="assets/Susmit_Roy_Resume.jpg" download="Susmit_Roy_Resume" target="_blank"
+                    class="btn btn--outline btn--lg">RESUME.PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__copy">&copy; 2025 SUSMIT ROY</p>
+            <div class="footer__links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener" class="footer__link">LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noopener" class="footer__link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
